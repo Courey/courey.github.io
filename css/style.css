@@ -1,7 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Special+Elite);
 @import url(http://fonts.googleapis.com/css?family=Tienne);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
 
-body{
+html{
   background-image: url('../images/bg.jpg');
 /*  background-color: rgba(255,255,255, 0.1);*/
   background-attachment: fixed;
@@ -10,6 +11,11 @@ body{
   background-size: cover;
   width: 100%;
   height: 100%;
+}
+
+body{
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .wrapper{
@@ -30,25 +36,26 @@ h1{
 }
 .projects{
   width: 100%;
+  padding-top: 10%;
 }
 
-.nss-projects, .csharp-projects{
-  width: 30%;
-  margin: 0 auto;
-
+p.link{
+  padding-top: 1px;
+  padding-bottom:1px;
 }
 
 .example{
-  width: 100%;
   height: 100px;
   background-image: url('../images/simple-calc.png');
   background-color: white;
   background-repeat: no-repeat;
-  background-size: contain;
-  border: 3px solid black;
+  border: 1px solid black;
   image-align: center;
   position: relative;
+}
 
+a.link{
+  color: rgba(0,51,51, .8);
 }
 
 li{
@@ -60,22 +67,28 @@ li{
   list-style-type: none;
 }
 
-.buttonbox{
+a{
   text-decoration: none;
+  color: black;
+  font-family: 'Source Code Pro', ;
+}
+.buttonbox{
   text-align: center;
-  margin: 0 auto;
   vertical-align: -50%;
-
-
 }
 
-h4,h2{
+.button {
+  border: solid black 1px;
+  border-radius: 10%;
+  margin: 5px;
+  padding: 2px 5px;
+  background-color:rgba(11, 66, 156, .3);
+}
+
+h4, h2, .link{
   color: rgba(0,51,51, .8);
   background-color: rgba(255,255,255, .5);
-  border: 2px solid gray;
   padding: 3px;
-  background-size: cover;
-/*  border-radius: 30%;*/
   text-align: center;
   font-size: 30px;
   text-shadow: 1px 1px rgba(0, 0, 0, .7);
