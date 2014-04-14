@@ -52,8 +52,19 @@ p.link{
   border: 1px solid black;
   image-align: center;
   position: relative;
+  margin: 5px;
 }
-
+.example2{
+  height: 300px;
+  background-size: contain;
+  background-image: url('../images/super-calc.png');
+  background-color: white;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  image-align: center;
+  position: relative;
+  margin: 5px;
+}
 a.link{
   color: rgba(0,51,51, .8);
 }
