@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
 
 html{
-  background-image: url('img/coffee-paper.jpg');
+  background-image: url('/img/coffee-paper.jpg');
 }
 
 body{
